@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "712097256784",
+    "firebase_url": "https://dubai-drive-rta.firebaseio.com",
+    "project_id": "dubai-drive-rta",
+    "storage_bucket": "dubai-drive-rta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712097256784:android:392c6b39ecb925d0c00855",
+        "android_client_info": {
+          "package_name": "com.sudipacharya.dubaidriverta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712097256784-b9aalc6a1bdb2f7n60rbfi503utn2ove.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvVcnAOryRhmFqqiswcKXOI3I6nsAsGcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712097256784-b9aalc6a1bdb2f7n60rbfi503utn2ove.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

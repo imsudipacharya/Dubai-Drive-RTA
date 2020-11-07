@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Requirements">
+
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General requirements for obtaining a driving license?"
+                android:textStyle="bold|italic"
+                android:textColor="#2196F3"
+                android:textSize="30dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As a resident in Dubai an applicant can apply for a driving license, provided he/she meets the following requirements:"
+                android:textStyle="bold"
+                android:textColor="#F44336"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Should be Seventeen years and six months age or above.\n
+Should be medically fit and should join the training &amp; qualification program offered by one of the driving institutes that are approved by the Roads and Transport Authority.\n\n
+Pass both required tests (the theoretical and practical test).\n\n
+Those who are interested in obtaining a commercial driving Permit, should be subject to Driver's Medical Test.\n\n
+\n
+Note: Only applicants who are completely 18 years old or above, shall be issued driving license."
+                android:textStyle="normal"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driving training requirements for special-needs applicants"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Applicants whether with mental or physical disability, must open a training file according to the recommendations of the pertinent medical report.\n\n
+Based on the disability type mentioned within the medical report a number of training sessions must be set by the driving institute in coordination with the Drivers Affairs Dep't."
+                android:textStyle="normal|italic"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+        </LinearLayout>

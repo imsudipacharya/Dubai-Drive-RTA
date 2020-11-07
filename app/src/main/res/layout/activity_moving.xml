@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Moving">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="#000"
+        tools:ignore="NewApi" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moving in Dubai"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:textSize="46dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dubai features a modern highly advanced infrastructure that provides high level of access within Dubai and to other parts of the region (other emirates). Sophisticated and integrated transit networks enable you to enjoy moving easily and safely."
+        android:textStyle="bold|italic"
+        android:textColor="#474545"
+        android:textSize="26dp"
+        android:gravity="left"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to obtain a driving license?"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="26dp"
+        android:gravity="center"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/license1"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:textSize="26dp"
+        android:gravity="left"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Steps:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="26dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/steps"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notice....international driving license!"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="26dp"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you are on a visit to UAE and holding a valid international driving license, accordingly you can rent a car or drive a car registered to your name or one of your 1st degree relatives."
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:textSize="26dp"
+        android:gravity="left"/>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

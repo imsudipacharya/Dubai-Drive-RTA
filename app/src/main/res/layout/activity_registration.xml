@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+       <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:textStyle="bold"
+                android:textColor="#2196F3"
+                android:textSize="46dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You must meet follow the complete process, to obtaining a driving license, which includes but not limited to:\n\n
+
+Attending the training program in one of RTA approved training institutes.
+Passing the required tests.\n\n
+Paying the fees in order to get a driving license issued."
+                android:textStyle="normal|italic"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fitness and Optical test "
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You should successfully pass both tests (fitness and optical) from the approved concerned bodies. Hence, a medical report, to be rendered by a concerned doctor, is a prerequisite; be it by an approved doctor or a medical body authorized by RTA. The report should state your physical, optical and mental health, to insure your ability to drive safely on public roads. Vision enhancement devices such as contact lenses and glasses or any other related approved devices are permissible 'if applicable'.\n\n
+Optical test should be conducted by one of the authorized optical centers, who shall send the test results electronically to the concerned bodies and institutes.\n\n
+If you seek to obtain a commercial driving permit, you must clear a specialized medical test as per Federal Law.\n"
+                android:textStyle="normal|italic"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theoretical Test / Knowledge Test"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You must pass the theoretical test, which is required to examine your knowledge and understanding about traffic laws and driving risk perception as well as awareness of safety procedures. \n\n
+
+An electronic system linking all driving institutes is provided by RTA to standardize the theoretical test.\n\n
+For your convenience, the theoretical test is available in many language.\n\n
+In case of non-common languages, RTA will provide the prescribed solution after assessing the case.\n\n
+Passing the theory test is a mandatory step before the final On-Road test.\n"
+                android:textStyle="normal|italic"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yard Test"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You must pass the yard test in order to obtain a driving license. This test should be cleared prior to the practical test on the road which is supervised by the RTA."
+                android:textStyle="normal|italic"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Assessment test"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This test is designed to assess your competency and readiness, for the final On-Road test. The assessment test is a replica of the final test and is conducted after you pass stage 4 of the practical training."
+                android:textStyle="normal|italic"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On Road Driving test"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="After passing the theoretical test, you will be assessed practically in accordance with the testing plan set and approved by the Licensing Agency."
+                android:textStyle="normal|italic"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Note:
+In case you fail the practical test, you will have to undergo additional training sessions, according to the approved policy of the Licensing agency."
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
