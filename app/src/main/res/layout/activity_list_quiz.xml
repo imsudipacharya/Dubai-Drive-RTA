@@ -6,7 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ListQuiz">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
      <androidx.cardview.widget.CardView
         android:layout_margin="15dp"
         android:id="@+id/card1"
@@ -23,10 +29,11 @@
         <LinearLayout
             android:background="#F3EFEF"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:id="@+id/exits"
             android:orientation="vertical">
+
 
             <ImageView
                 android:id="@+id/image1"
@@ -78,7 +85,7 @@
         <LinearLayout
             android:background="#F3EFEF"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:id="@+id/exits2"
             android:orientation="vertical">
@@ -133,7 +140,7 @@
         <LinearLayout
             android:background="#F3EFEF"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:id="@+id/exits3"
             android:orientation="vertical">
@@ -188,7 +195,7 @@
         <LinearLayout
             android:background="#F3EFEF"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:gravity="center"
             android:id="@+id/exits4"
             android:orientation="vertical">
@@ -226,6 +233,7 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
+    </LinearLayout>
+</ScrollView>
 
 </LinearLayout>
