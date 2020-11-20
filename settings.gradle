@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Dubai Drive RTA"
+rootProject.name = "Dubai License"

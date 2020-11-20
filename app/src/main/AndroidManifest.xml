@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.techacharya.dubaidriverta">
+    package="com.bma.dubailicense">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -12,41 +12,42 @@
         android:roundIcon="@drawable/images"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.techacharya.dubaidriverta.ListQuiz"
-            android:parentActivityName="com.techacharya.dubaidriverta.MainActivity"></activity>
-        <activity android:name="com.techacharya.dubaidriverta.ListQuiz2"
-            android:parentActivityName="com.techacharya.dubaidriverta.MainActivity"/>
+        <activity
+            android:name=".ListQuiz"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ListQuiz2"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".ColorVision" />
-        <activity android:name="com.techacharya.dubaidriverta.Registration"
-            android:parentActivityName="com.techacharya.dubaidriverta.MainActivity"/>
-        <activity android:name="com.techacharya.dubaidriverta.Requirements"
-            android:parentActivityName="com.techacharya.dubaidriverta.MainActivity"/>
-        <activity android:name="com.techacharya.dubaidriverta.Moving"
-            android:parentActivityName="com.techacharya.dubaidriverta.MainActivity"/>
-        <activity android:name="com.techacharya.dubaidriverta.Signs"
-            android:parentActivityName="com.techacharya.dubaidriverta.MainActivity"/>
-        <activity android:name="com.techacharya.dubaidriverta.PhotoQuestionActivity" />
-        <activity android:name="com.techacharya.dubaidriverta.SplashActivity">
+        <activity android:name=".Registration"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Requirements"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Moving"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Signs"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".PhotoQuestionActivity" />
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.techacharya.dubaidriverta.play_movie"/>
-        <activity android:name="com.techacharya.dubaidriverta.PhotoQuestionActivity2" />
-        <activity android:name="com.techacharya.dubaidriverta.PhotoQuestionActivity3" />
-        <activity android:name="com.techacharya.dubaidriverta.PhotoQuestionActivity4" />
-        <activity android:name="com.techacharya.dubaidriverta.QuizTime" />
-        <activity android:name="com.techacharya.dubaidriverta.QuizTime2" />
-        <activity android:name="com.techacharya.dubaidriverta.QuizTime3" />
-        <activity android:name="com.techacharya.dubaidriverta.ScoreActivity" />
-        <activity android:name="com.techacharya.dubaidriverta.QuestionsActivity" />
-        <activity android:name="com.techacharya.dubaidriverta.QuestionsActivity2" />
-        <activity android:name="com.techacharya.dubaidriverta.MainActivity"
+        <activity android:name=".play_movie"/>
+        <activity android:name=".PhotoQuestionActivity2" />
+        <activity android:name=".PhotoQuestionActivity3" />
+        <activity android:name=".PhotoQuestionActivity4" />
+        <activity android:name=".QuizTime" />
+        <activity android:name=".QuizTime2" />
+        <activity android:name=".QuizTime3" />
+        <activity android:name=".ScoreActivity" />
+        <activity android:name=".QuestionsActivity" />
+        <activity android:name=".QuestionsActivity2" />
+        <activity android:name=".MainActivity"
             />
-        <activity android:name="com.techacharya.dubaidriverta.Main4Activity"
-            android:parentActivityName="com.techacharya.dubaidriverta.MainActivity"/>
+        <activity android:name=".Main4Activity"
+            android:parentActivityName=".MainActivity"/>
 
     </application>
 

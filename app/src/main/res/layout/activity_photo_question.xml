@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PhotoQuestionActivity">
+    tools:context="com.bma.dubailicense.PhotoQuestionActivity">
 
     <RelativeLayout
         android:layout_alignParentTop="true"

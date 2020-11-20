@@ -6,7 +6,7 @@
     android:id="@+id/mainlayout"
     android:layout_height="match_parent"
     android:background="#AAC2DA"
-    tools:context=".SplashActivity">
+    tools:context="com.bma.dubailicense.SplashActivity">
 
     <ImageView
         android:layout_width="match_parent"

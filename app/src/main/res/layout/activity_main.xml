@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.bma.dubailicense.MainActivity">
 
     <RelativeLayout
         android:layout_alignParentTop="true"
@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="#000"
-            android:id="@+id/toolbar"/>
+            android:id="@+id/toolbars"/>
 
         <androidx.cardview.widget.CardView
             android:layout_below="@+id/toolbar"

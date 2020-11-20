@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:712097256784:android:392c6b39ecb925d0c00855",
+        "mobilesdk_app_id": "1:712097256784:android:cfc3193bedbff921c00855",
         "android_client_info": {
-          "package_name": "com.sudipacharya.dubaidriverta"
+          "package_name": "com.bma.dubailicense"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "712097256784-ubofc35mhhb9tr08586tdjuke3vph9qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bma.dubailicense",
+            "certificate_hash": "457a529af81e7ef4c7b88472bb10c26304ea6a69"
+          }
+        },
         {
           "client_id": "712097256784-b9aalc6a1bdb2f7n60rbfi503utn2ove.apps.googleusercontent.com",
           "client_type": 3

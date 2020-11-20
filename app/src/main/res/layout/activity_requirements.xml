@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Requirements">
+    android:layout_margin="5dp"
+    tools:context="com.bma.dubailicense.Requirements">
 
    <ScrollView
         android:layout_width="match_parent"
