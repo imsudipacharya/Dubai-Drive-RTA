@@ -32,22 +32,22 @@ public class MainActivity extends AppCompatActivity {
 
 
         AudienceNetworkAds.initialize(this);
-        mInterstitialAd = new InterstitialAd(this, "807461976663649_807464216663425");
+        mInterstitialAd = new InterstitialAd(this, "759398214918901_759398368252219");
         mInterstitialAd.loadAd();
 
 
         AudienceNetworkAds.initialize(this);
-        mInterstitialAd1 = new InterstitialAd(this, "807461976663649_807464326663414");
+        mInterstitialAd1 = new InterstitialAd(this, "759398214918901_759401784918544");
         mInterstitialAd1.loadAd();
 
 
         AudienceNetworkAds.initialize(this);
-        mInterstitialAd2 = new InterstitialAd(this, "807461976663649_807464446663402");
+        mInterstitialAd2 = new InterstitialAd(this, "759398214918901_759398761585513");
         mInterstitialAd2.loadAd();
 
 
         AudienceNetworkAds.initialize(this);
-        mInterstitialAd3 = new InterstitialAd(this, "807461976663649_807464573330056");
+        mInterstitialAd3 = new InterstitialAd(this, "759398214918901_759398854918837");
         mInterstitialAd3.loadAd();
 
 
@@ -199,16 +199,15 @@ onBackPressed();
 
         @Override
         public void onBackPressed() {
+            if (mInterstitialAd.isAdLoaded()) {
 
+                mInterstitialAd.show();
+            }
                 AlertDialog.Builder ab = new AlertDialog.Builder(MainActivity.this);
                 ab.setTitle("DO YOU WANT TO CLOSE Dubai License ?");
                 ab.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        if (mInterstitialAd.isAdLoaded()) {
-
-                            mInterstitialAd.show();
-                        }
                         dialog.dismiss();
                         android.os.Process.killProcess(android.os.Process.myPid());
                         System.exit(1);

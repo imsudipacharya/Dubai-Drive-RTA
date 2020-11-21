@@ -41,7 +41,7 @@ public class PhotoQuestionActivity2 extends AppCompatActivity implements View.On
         setContentView(R.layout.activity_photo_question);
 
         AudienceNetworkAds.initialize(this);
-        mInterstitialAd = new InterstitialAd(this, "807461976663649_807465396663307");
+        mInterstitialAd = new InterstitialAd(this, "759398214918901_759399091585480");
         mInterstitialAd.loadAd();
 
 

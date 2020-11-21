@@ -63,7 +63,7 @@ private InterstitialAd mInterstitialAd;
         setContentView(R.layout.activity_main4);
 
         AudienceNetworkAds.initialize(this);
-        mInterstitialAd = new InterstitialAd(this, "807461976663649_807464703330043");
+        mInterstitialAd = new InterstitialAd(this, "759398214918901_759398951585494");
         mInterstitialAd.loadAd();
 
             MoviesRV = findViewById(R.id.Rv_movies);

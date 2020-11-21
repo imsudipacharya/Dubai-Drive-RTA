@@ -42,7 +42,7 @@ public class QuestionsActivity2 extends AppCompatActivity implements View.OnClic
         setContentView(R.layout.activity_questions);
 
         AudienceNetworkAds.initialize(this);
-        mInterstitialAd = new InterstitialAd(this, "807461976663649_807465056663341");
+        mInterstitialAd = new InterstitialAd(this, "759398214918901_759617424896980");
         mInterstitialAd.loadAd();
 
         question = (ImageView) findViewById(R.id.textView2);

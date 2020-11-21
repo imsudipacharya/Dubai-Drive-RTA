@@ -20,7 +20,7 @@ private InterstitialAd mInterstitialAd;
         setContentView(R.layout.activity_signs);
 
         AudienceNetworkAds.initialize(this);
-        mInterstitialAd = new InterstitialAd(this, "807461976663649_807468556662991");
+        mInterstitialAd = new InterstitialAd(this, "759398214918901_759617524896970");
         mInterstitialAd.loadAd();
 
 
